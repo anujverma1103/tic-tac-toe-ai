@@ -24,9 +24,9 @@ let scores = { X: 0, O: 0, ties: 0 };
 let gameMode = "two-player";
 
 // ✅ Corrected Audio Paths
-let moveSound = new Audio("/sound/move.mp3");
-let winSound = new Audio("/sound/win.mp3");
-const tieSound = new Audio("/sound/tie.mp3");
+let moveSound = new Audio("move.mp3");
+let winSound = new Audio("win.mp3");
+const tieSound = new Audio("tie.mp3");
 
 const winningConditions = [
   [0, 1, 2], [3, 4, 5], [6, 7, 8],
